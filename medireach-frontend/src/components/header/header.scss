@@ -1,0 +1,51 @@
+.header {
+  height: 100vh;
+  width: 100%;
+
+  .header-wrapper {
+    display: flex;
+    height: 96vh;
+
+    .left-header {
+      flex: 1;
+      background-color: 	#E0E0E0;
+
+      .left-header-wrapper {
+        width: 76%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        margin: 20px 0 0 100px;
+        .header-heading {
+          font-size: 53px;
+          letter-spacing: 0.04rem;
+          color: rgb(10, 73, 154);
+          width: 90%;
+        }
+        .header-para {
+          color: grey;
+        }
+      }
+    }
+    .right-header {
+      flex: 1;
+      display: flex;
+      height: 90%;
+      align-items: flex-end;
+      background: linear-gradient(
+          to right,
+          rgba(47, 131, 241, 0.1),
+          rgba(47, 131, 241, 0.1)
+          
+        ),
+        url("https://images.pexels.com/photos/1250655/pexels-photo-1250655.jpeg?cs=srgb&dl=healthcare-hospital-lamp-1250655.jpg&fm=jpghttp://localhost:3000/assets/images/pngfind.com-doctor-png-531018.jpg");
+        background-position: center;
+        background-size: cover;
+      .doctors-img {
+        margin-left: 25px;
+      }
+    }
+  }
+}
